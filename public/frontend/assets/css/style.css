@@ -1145,7 +1145,7 @@ ul {
   padding: 15px;
 }
 .pd-20 {
-  padding: 10px;
+  padding: 20px;
 }
 .pd-25 {
   padding: 25px;
@@ -2606,7 +2606,7 @@ ul {
     ## All section style
 ----------------------------------------------*/
 .single-intro-inner {
-  padding: 30px;
+  padding: 0px;
   border-radius: 6px;
   transition: 0.4s;
 }

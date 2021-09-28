@@ -103,6 +103,7 @@
             intro-slider
         ------------------------------------------------*/
         $('.banner-slider').owlCarousel({
+            autoplay:true,
             loop: true,
             margin: 30,
             nav: false,
