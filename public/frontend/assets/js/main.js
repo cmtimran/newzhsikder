@@ -113,6 +113,30 @@
             navText: [ leftArrow, rightArrow],
         });
 
+        
+        /*------------------------------------------------
+            faculty-member-slider-for department page
+        ------------------------------------------------*/
+        $('.dept-faculty-member-slider').owlCarousel({
+            autoplay:true,
+            loop: true,
+            margin: 30,
+            nav: true,
+            dots: false,
+            smartSpeed: 1500,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                }, 
+            }
+        });
+
         /*------------------------------------------------
             intro-slider
         ------------------------------------------------*/
@@ -140,6 +164,7 @@
             course-slider
         ------------------------------------------------*/
         $('.course-slider').owlCarousel({
+            autoplay:true,
             loop: true,
             margin: 30,
             nav: true,
@@ -148,7 +173,7 @@
             navText: [ leftArrow, rightArrow],
             responsive: {
                 0: {
-                    items: 1
+                    items: 2
                 },
                 600: {
                     items: 2
@@ -185,7 +210,7 @@
 
 
         /*------------------------------------------------
-            intro-slider
+            team-slider
         ------------------------------------------------*/
         $('.team-slider').owlCarousel({
             loop: true,
@@ -280,7 +305,7 @@
         $(document).on('click', '.back-to-top', function () {
             $("html,body").animate({
                 scrollTop: 0
-            }, 2000);
+            }, 1000);
         });
 
     });
@@ -328,7 +353,7 @@
         ----------------------*/
         $(document).on('click', '.cancel-preloader a', function (e) {
             e.preventDefault();
-            $("#preloader").fadeOut(2000);
+            $("#preloader").fadeOut(3000);
         });
 
     });

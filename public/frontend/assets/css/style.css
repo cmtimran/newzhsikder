@@ -99,6 +99,13 @@ body {
   background: #FCFAFF;
 }
 
+.color-white{
+  color: #fff !important; 
+}
+.text-line-height { 
+  line-height: 50px;
+}
+
 h1 {
   font-size: 24px;
   line-height: 1.2333333333;
@@ -1228,6 +1235,23 @@ ul {
 .mg-top-160 {
   margin-top: 160px;
 }
+
+.mg-bottom-10 {
+  margin-bottom: 10px !important;
+}
+.mg-bottom-20 {
+  margin-bottom: 20px !important;
+}
+.mg-bottom-30 {
+  margin-bottom: 30px !important;
+}
+.mg-bottom-40 {
+  margin-bottom: 40px !important;
+}
+.mg-bottom-50 {
+  margin-bottom: 50px !important;
+}
+
 .pd-bottom-10 {
   padding-bottom: 10px;
 }
@@ -2574,11 +2598,11 @@ ul {
   color: #fff;
   cursor: pointer;
   position: absolute;
-  bottom: 70px;
+  bottom: 68px;
   z-index: 2;
 }
 .banner-slider .owl-nav .owl-next {
-  left: 106px;
+  left: 150px;
 }
 .banner-slider .owl-dots {
     counter-reset: dots;
@@ -2825,6 +2849,8 @@ ul {
   padding: 20px 22px 25px;
 }
 .single-course-inner .details h5 {
+  height: 55px;
+  font-size: 16px !important;
   font-weight: 500;
 }
 .single-course-inner .details .meta {
@@ -3121,8 +3147,26 @@ ul {
   line-height: 1 !important;
   border: 0;
   width: 100%;
-  height: 450px;
+  height: 550px;
 }
+
+.contact-area .details {
+  padding: 10px;
+}
+.contact-area .details li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+  list-style: none;
+  color: rgb(0, 0, 0);
+} 
+.contact-area .details li i {
+  margin-right: 14px;
+  color: #2878eb;
+  position: absolute;
+  left: 0;
+  top: 6px;
+} 
 
 /*------------------------------------------------
     blog style
@@ -3420,7 +3464,7 @@ a.olc::after {
   margin-top: 35px;
 }
 .logo {
-  padding: 10px 0px 10px 140px;
+  padding: 0px;
 }
 .logo a {
   font-weight: bold; 
