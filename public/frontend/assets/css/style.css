@@ -1137,8 +1137,6 @@ ul {
   top: 0;
   /* background-image: linear-gradient(to right, rgba(40, 120, 235, 0.9), rgba(241, 41, 201, 0.9)); */
   background-image: linear-gradient(to right, rgba(40, 120, 235, 0.9), rgb(18 0 119));
-  }
-
 }
 .bg-overlay-rgba .container {
   position: relative;
@@ -2465,10 +2463,10 @@ ul {
   opacity: 0.97;
 }
 
-.mfp-zoom-in {
+/* .mfp-zoom-in { */
   /* animate in */
   /* animate out */
-}
+/* } */
 
 .mfp-zoom-in .mfp-content {
   opacity: 0;
@@ -3226,15 +3224,14 @@ ul {
   color: #fff;
 }
 
- .single-blog-inner {
-    margin-bottom: 30px;
-    /* background: #e0e0e0; */
-    border-radius: 10px;
-    padding: 10px;
-    border: 2px solid #2878eb;
-    box-shadow: 9px 8px 10px -5px #2878eb;
-  }
-}
+.single-blog-inner {
+  margin-bottom: 30px;
+  /* background: #e0e0e0; */
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #2878eb;
+  box-shadow: 9px 8px 10px -5px #2878eb;
+} 
 .single-blog-inner .thumb {
   position: relative;
   overflow: hidden;
@@ -3590,6 +3587,83 @@ a.olc::after {
   margin: 0px !important;
 }
 
+
+
+//individual Facultymember
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #004d40;
+  border-color: #888888;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-group .panel-heading {
+  border-bottom: 1px solid #2b7bee;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid #2b7bee;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+
+. 
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  margin-top: -5px;
+  content: "-";
+  color: #1E6CDC;
+  font-family: FontAwesome;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 300 !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  font-family: FontAwesome;
+  content: "+";
+  color: #1E6CDC;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
     
    
  
